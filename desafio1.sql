@@ -1,6 +1,6 @@
 -- 1. CrearBaseDeDatos
 CREATE DATABASE post;
-
+\c posts
 -- 2. Crear tabla post, con los atributos id, nombre de usuario, fecha de creación, contenido,descripcion
 CREATE TABLE post(
   id INT,
